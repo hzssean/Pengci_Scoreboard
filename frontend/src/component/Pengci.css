@@ -1,0 +1,211 @@
+/* .bg {
+    background-color: #FAF2E9;
+}
+
+.homePage_card.MuiCard-root {
+    background-color: #FAF2E9;
+    margin: 20px 10px 10px 20px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(228, 166, 184, 0.2), 10px 10px 10px 10px rgba(233, 133, 133, 0.1), 10px 10px 10px 10px rgba(163, 195, 231, 0.1)
+        
+
+}
+
+.homePage_typography.MuiTypography-root {
+    margin-left: 20px;
+    color: #848D62;
+    font-weight: 600;
+}
+
+.homePage_button.MuiButton-root {
+  
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+    ;
+    padding: 10px;
+    background-color: #848D62;
+    border-radius: 20px;
+
+}
+.homePage_button.MuiButton-root:hover {
+    background-color: #6b614f;
+    transition: 0.7s;
+    color: white
+}
+.displayProductFormImage {
+    width: 100%;
+    overflow: auto;
+}
+
+.displayProductFormImage>img {
+    width: 100px;
+    margin: 10px 30px;
+}
+
+.alignment {
+    margin: 0vw;
+}
+
+
+.nameEllipsis {
+    white-space: nowrap;
+    max-width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Grid{
+    background-color: antiquewhite;
+} */
+
+/* Pengci.css */
+
+.bg {
+    background-image: url("https://i.pinimg.com/564x/e9/8c/07/e98c070548ff23b98a2c53a306cb0018.jpg"); /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.749); 
+  }
+  
+  .alignment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1300px;
+  }
+
+  
+  
+  .info-container {
+
+    width: 45%;
+    color: #f0f0f0;
+    backdrop-filter: blur(8px); /* Adjust the blur value as needed */
+  background-color: rgba(0, 0, 0, 0.2); /* Optional: Add a semi-transparent background color */
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-container h1{
+    text-align: center;
+  }
+
+  .info-container p{
+    text-align: center;
+  }
+  
+  .video-container {
+    position: relative;
+    /* padding-top: 56.25%; */
+  }
+  
+  .video-container > div.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .scores-container {
+    width: 48%;
+  }
+  
+  .leaderboard-container {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Add border-spacing to increase gap between table rows */
+    border-spacing: 0 15px; /* Adjust the second value (15px) to control the vertical gap */
+  }
+  
+  .leaderboard-container h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff; /* Optional: Set the text color to white for better visibility */
+  }
+  
+  
+  .leaderboard-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leaderboard-container th,
+.leaderboard-container td {
+  padding: 15px 16px;
+  text-align: left;
+  color: #fff;
+}
+  
+  .leaderboard-container th:first-child,
+  .leaderboard-container td:first-child {
+    width: 15%;
+  }
+  
+  /* .leaderboard-container td:last-child {
+    text-align: right;
+  } */
+  
+
+  
+  .leaderboard-container div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  button:disabled {
+    /* background-color: gray; */
+    color:gray;
+    cursor: not-allowed;
+    background: transparent;
+    border: 0px ;
+  }
+  button:enabled{
+     color: #fff ;
+     cursor: pointer;
+     background: transparent;
+     border: 0px ;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    max-height: 100%;
+  }
